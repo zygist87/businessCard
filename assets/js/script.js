@@ -36,8 +36,6 @@ submitbtn.addEventListener('click', event=>{
   descriptionParagraph.textContent = "Description: "+ descriptionValue;
   output.appendChild(descriptionParagraph);
 
-
-
   //issaugo duomenis i localSorage
   var businessCard = {
     fullName : nameValue,
@@ -82,11 +80,8 @@ window.addEventListener('load', event=>{
 });
 
 
-
-
 reloadBtn.addEventListener('click', event=>{
   window.location.reload();
-
 });
 
 
